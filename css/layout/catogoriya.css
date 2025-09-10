@@ -1,0 +1,67 @@
+#shef {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.shef-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.input {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+    height: 6px;
+
+}
+
+.stil {
+    accent-color: rgba(44, 149, 83, 1);
+}
+
+.shef-2 h1 {
+    font-family: Sharp Sans No1;
+    font-weight: 770;
+    font-size: 54px;
+    color: black;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-bottom: 30px;
+}
+
+.shef-2 p {
+    font-family: Sharp Sans No1;
+        font-weight: 750;
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.751);
+        line-height: 34px;
+        letter-spacing: 0%;   
+}
+@media (max-width:1083px) {
+    .shef-1{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:500px) {
+    .envpi{
+        flex-wrap: wrap;
+        max-width: 522px;
+        height: 380px;
+        width: 100%;
+        margin-top: 140px;
+    }
+}
+@media (max-width:350px) {
+    .envpi{
+        flex-wrap: wrap;
+        max-width: 522px;
+        height: 380px;
+        width: 100%;
+        margin-top: 170px;
+    }
+}

@@ -1,0 +1,103 @@
+#chose {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+
+}
+
+.card {
+    max-width: 270px;
+    height: 245px;
+    width: 100%;
+    text-align: center;
+}
+
+.cards :hover {
+    box-shadow: 0px 1px 2px 2px rgb(94, 94, 94);
+    transition: 0.5s;
+
+}
+
+.card h2 {
+    font-family: Sharp Sans No1;
+    font-weight: 770;
+    font-size: 28px;
+    color: black;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+
+}
+
+.card p {
+    font-family: Sharp Sans No1;
+    font-weight: 750;
+    font-size: 18px;
+    color: linear-gradient(180deg, #000000 0%, #0b5825 100%);
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.tex-11 {
+    font-family: Sharp Sans No1;
+    font-weight: 770;
+    font-size: 54px;
+    color: #000000;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+.tex-12 {
+    font-family: Sharp Sans No1;
+    font-weight: 750;
+    font-size: 24px;
+    color: #000000;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.reyting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.reyting :hover {
+    box-shadow: 0px 1px 2px 3px gray;
+    transition: 0.5s;
+}
+
+@media (max-width:810px) {
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .reyting {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:470px) {
+    .tex-11 {
+        font-size: 35px;
+    }
+
+    .tex-12 {
+        font-size: 19px;
+    }
+}
